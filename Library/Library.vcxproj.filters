@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TimeControl">
+      <UniqueIdentifier>{649fa1c7-6e4b-4924-97c6-6c75939a635f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inputs">
+      <UniqueIdentifier>{2c337758-6015-4e6c-a5dd-ac69b0008729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderControl">
+      <UniqueIdentifier>{74a6ffcd-dfc4-48ab-add4-13c473ab0fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameControl">
+      <UniqueIdentifier>{d986e912-d139-488f-a5f7-67ad9758485b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{d352a9d2-8181-43bc-a208-075621bc19db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameControl\DesignPatterns">
+      <UniqueIdentifier>{9bc4c3b9-1981-4e03-8c9e-89e745b4fbab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\TimeControl\StopWatch.cpp">
+      <Filter>TimeControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Inputs\KeyboardController.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Inputs\MouseController.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderControl\TextRenderer.cpp">
+      <Filter>RenderControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameControl\Settings.cpp">
+      <Filter>GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\ImageLoader.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\TimeControl\StopWatch.h">
+      <Filter>TimeControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Inputs\KeyboardController.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Inputs\MouseController.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderControl\TextRenderer.h">
+      <Filter>RenderControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderControl\shader.h">
+      <Filter>RenderControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameControl\Settings.h">
+      <Filter>GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\filesystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\ImageLoader.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DesignPatterns\SingletonTemplate.h">
+      <Filter>GameControl\DesignPatterns</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
